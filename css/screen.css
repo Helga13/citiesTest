@@ -1,0 +1,67 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-size: 0;
+}
+
+p{
+  margin: 2px 0;
+}
+
+.playing_field,
+.cities_field{
+  display: inline-block;
+  vertical-align: top;
+  width: 50%;
+  padding: 20px 10px;
+  font-size: 16px;
+}
+
+#get_cities{
+  margin-bottom: 10px;
+}
+
+#cities_available{
+  display: none;
+  max-height: 200px;
+  width: 200px;
+  overflow-y: auto;
+  padding: 8px 5px;
+  border: 2px solid #777;
+}
+
+#human_city{
+  text-transform: lowercase;
+}
+
+#message{
+  margin: 10px 0;
+}
+
+#human_list,
+#computer_list{
+  display: inline-block;
+  vertical-align: top;
+  width: 45%;
+}
+
+#result{
+  display: none;
+}
+
+.result_item{
+  margin: 10px 0;
+}
+
+.result_message{
+  color: green;
+  font-size: 18px; 
+  font-weight: bold;
+}
+
+#map{
+  height: 460px;
+}
